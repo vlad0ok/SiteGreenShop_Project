@@ -1,21 +1,105 @@
 * {
-  font-family: "Oswald", sans-serif;
-  font-weight: 500;
+  font-family: "Poppins", sans-serif;
 }
 
-body {
-  background-color: darkkhaki;
+header,
+main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  border-bottom: 1px solid #46a35880;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header button {
+  background-color: #46a358;
+  color: #fff;
+  font-weight: 500;
+  display: flex;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+button img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+section {
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.SectionWelcome div {
+  max-width: 50%;
+  padding-left: 40px;
+}
+
+.SectionWelcome div h4,
+.SectionWelcome div p {
+  color: #3d3d3d;
+  margin: 0;
+}
+
+.SectionWelcome div p {
+  margin-bottom: 45px;
+}
+
+.SectionWelcome button {
+  font-weight: 700;
+  background-color: #46a358;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+a.logo-a-header {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px 20px;
 }
 
 a {
-  background-color: black;
-  color: white;
+  font-weight: 400;
+  color: #3d3d3d;
+  padding: 25px 10px;
+  text-decoration: none;
 }
 
-em {
-  color: green;
+.home-active {
+  font-weight: 700;
+  border-bottom: 3px solid #46a358;
 }
 
-b {
-  color: red;
+div h1 {
+  color: #3d3d3d;
+  font-size: 70px;
+  line-height: 70px;
+  margin: 0;
+}
+
+div h1 span {
+  color: #46a358;
 }
