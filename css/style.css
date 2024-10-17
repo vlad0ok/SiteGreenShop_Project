@@ -1,5 +1,6 @@
 * {
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
 header,
@@ -11,20 +12,23 @@ main {
 
 header {
   border-bottom: 1px solid #46a35880;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+}
+
+header a.logo-a-header {
+  display: inline-block;
 }
 
 header button {
   background-color: #46a358;
   color: #fff;
   font-weight: 500;
-  display: flex;
   padding: 10px 25px;
   border: none;
   border-radius: 7px;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 0;
 }
 
 button img {
@@ -35,15 +39,20 @@ button img {
 
 section {
   background-color: rgb(247, 247, 247);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: inline-block;
   margin-top: 12px;
+}
+
+.SectionWelcome {
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .SectionWelcome div {
   max-width: 50%;
-  padding-left: 40px;
+  padding: 70px 0 0 40px;
+  vertical-align: middle;
 }
 
 .SectionWelcome div h4,
@@ -66,19 +75,21 @@ section {
   cursor: pointer;
 }
 
-a.logo-a-header {
+nav {
+  display: inline-block;
+  margin: 0 180px 0 250px;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
   padding: 0;
   margin: 0;
 }
 
-nav ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-}
-
 li {
-  padding: 10px 20px;
+  display: inline-block;
+  padding: 7px 20px;
 }
 
 a {
@@ -91,6 +102,14 @@ a {
 .home-active {
   font-weight: 700;
   border-bottom: 3px solid #46a358;
+}
+
+.plantContainer {
+  display: inline-block;
+}
+
+.textWelcome {
+  display: inline-block;
 }
 
 div h1 {
