@@ -19,6 +19,7 @@ header a.logo-a-header {
 }
 
 header button {
+  display: inline-block;
   background-color: #46a358;
   color: #fff;
   font-weight: 500;
@@ -26,24 +27,21 @@ header button {
   border: none;
   border-radius: 7px;
   cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  margin-right: 0;
+  vertical-align: middle;
 }
 
 button img {
   margin-right: 10px;
   width: 20px;
   height: 20px;
-}
-
-section {
-  background-color: rgb(247, 247, 247);
-  display: inline-block;
-  margin-top: 12px;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
 }
 
 .SectionWelcome {
+  background-color: rgb(247, 247, 247);
+  margin-top: 12px;
   height: 100%;
   display: inline-block;
   vertical-align: middle;
@@ -121,4 +119,133 @@ div h1 {
 
 div h1 span {
   color: #46a358;
+}
+
+section.second-section {
+  margin-top: 30px;
+  height: inherit;
+}
+
+div.left-container ul {
+  margin-bottom: 225px;
+}
+
+div.left-container ul li {
+  display: block;
+  padding: 5px 0;
+}
+
+div.left-container a {
+  padding-left: 0;
+}
+
+.tabs {
+  float: left;
+}
+
+.sort {
+  float: right;
+}
+
+.sort-short {
+  display: flex;
+}
+
+.sort p,
+.sort select {
+  display: inline-block;
+}
+
+.sort select {
+  border: none;
+}
+
+.product-item {
+  float: left;
+  margin-left: 50px;
+}
+
+.product-item a {
+  padding: 0;
+  margin: 0;
+}
+
+.left-container {
+  background-color: #fbfbfb;
+  float: left;
+  width: 25%;
+  padding-left: 0px;
+}
+
+.left-container h3 {
+  margin-left: 30px;
+}
+
+.house-plants-active {
+  font-weight: 700;
+  color: #46a358;
+}
+
+.right-container {
+  float: right;
+  width: 75%;
+  height: 100%;
+}
+
+.tab-active {
+  font-weight: 700;
+  color: #46a358;
+  padding: 0px;
+  border-bottom: 3px solid #46a358;
+}
+
+.tabs {
+  margin-left: 50px;
+}
+
+.product-title {
+  font-weight: 400;
+}
+
+.product-price {
+  font-weight: 700;
+  color: #46a358;
+}
+
+.product-backgr {
+  background-color: #fbfbfb;
+  width: 250px;
+  height: 250px;
+}
+
+div.page-btn {
+  margin: 50px 0 50px 0;
+  float: right;
+}
+
+div.page-btn button {
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+button.btn-page:last-child {
+  margin-right: 0;
+}
+
+button.btn-page {
+  background-color: #fff;
+}
+
+button.btn-page img {
+  margin: 0;
+}
+
+button.btn-page-active {
+  background-color: #46a358;
+  color: #fff;
+  border: none;
+  font-weight: 700;
 }
