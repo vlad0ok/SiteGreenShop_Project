@@ -126,6 +126,12 @@ section.second-section {
   height: inherit;
 }
 
+section.second-section::after {
+  content: "";
+  display: table;
+  clear: left;
+}
+
 div.left-container ul {
   margin-bottom: 225px;
 }
@@ -179,6 +185,10 @@ div.left-container a {
 
 .left-container h3 {
   margin-left: 30px;
+}
+
+.product-container {
+  float: left;
 }
 
 .house-plants-active {
