@@ -59,13 +59,14 @@ a {
   color: #3d3d3d;
   padding: 25px 10px;
   text-decoration: none;
+  border-bottom: 3px solid transparent;
 }
 
 .logo-a-header {
   padding-bottom: 10px;
 }
 
-.home-active {
+header nav ul li a:hover {
   font-weight: 700;
   border-bottom: 3px solid #46a358;
 }
@@ -196,6 +197,7 @@ div.left-container ul li a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .product-item a {
@@ -207,10 +209,14 @@ div.left-container ul li a {
   margin-top: 12px;
 }
 
-.tab-active {
-  font-weight: 700;
+.top-panel .tabs a {
+  border-bottom: 3px solid transparent;
+}
+
+.top-panel .tabs a:hover {
+  font-weight: 500;
   color: #46a358;
-  padding: 0px;
+  padding-bottom: 0;
   border-bottom: 3px solid #46a358;
 }
 
@@ -283,6 +289,46 @@ button.btn-page:hover {
   font-weight: 700;
 }
 
+.cart {
+  position: absolute;
+  left: 107px;
+  bottom: 70px;
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  cursor: pointer;
+}
+
+.cart img {
+  margin: 0;
+}
+
+.product-item:hover .cart {
+  display: block;
+}
+
+.sale {
+  position: absolute;
+  top: 20px;
+  background-color: #46a358;
+  color: #fff;
+  padding: 5px 7px;
+}
+
+.old-price {
+  position: absolute;
+  left: 70px;
+  bottom: 0;
+  font-weight: 600;
+  text-decoration: line-through;
+  color: rgb(194, 19, 19);
+}
+
 /* Third Section*/
 
 .third-section {
@@ -294,6 +340,7 @@ button.btn-page:hover {
   justify-content: space-between;
   align-items: center;
   gap: 5px;
+  position: relative;
 }
 
 .left-card,
@@ -302,6 +349,13 @@ button.btn-page:hover {
   background-color: rgb(247, 247, 247);
   color: #3d3d3d;
   width: 45%;
+  padding: 20px 20px;
+}
+
+.left-card img,
+.right-card img {
+  position: absolute;
+  bottom: 35px;
 }
 
 .left-card button,
@@ -329,6 +383,7 @@ button.btn-page:hover {
   align-items: flex-end;
   margin: 15px 15px 0 auto;
   text-align: right;
+  width: 50%;
 }
 
 .bottom-container {
