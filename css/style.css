@@ -198,6 +198,7 @@ div.left-container ul li a {
   flex-direction: column;
   align-items: center;
   position: relative;
+  border-bottom: 3px solid transparent;
 }
 
 .product-item a {
@@ -289,13 +290,13 @@ button.btn-page:hover {
   font-weight: 700;
 }
 
-.cart {
+.cart,
+.like,
+.search {
   position: absolute;
-  left: 107px;
-  bottom: 70px;
   background-color: #fff;
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 10px;
   display: flex;
   align-items: center;
@@ -304,12 +305,35 @@ button.btn-page:hover {
   cursor: pointer;
 }
 
-.cart img {
+.cart {
+  left: 60px;
+  bottom: 70px;
+}
+
+.like {
+  left: 107px;
+  bottom: 70px;
+}
+
+.search {
+  left: 154px;
+  bottom: 70px;
+}
+
+.like img,
+.cart img,
+.search img {
   margin: 0;
 }
 
-.product-item:hover .cart {
+.product-item:hover .cart,
+.product-item:hover:hover .like,
+.product-item:hover:hover .search {
   display: block;
+}
+
+.product-item:hover {
+  border-top: 1px solid #46a358;
 }
 
 .sale {
@@ -324,9 +348,9 @@ button.btn-page:hover {
   position: absolute;
   left: 70px;
   bottom: 0;
-  font-weight: 600;
+  font-weight: 300;
   text-decoration: line-through;
-  color: rgb(194, 19, 19);
+  color: #cbcbcb;
 }
 
 /* Third Section*/
