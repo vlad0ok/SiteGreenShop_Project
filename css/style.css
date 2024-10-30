@@ -59,15 +59,14 @@ a {
   color: #3d3d3d;
   padding: 25px 10px;
   text-decoration: none;
-  border-bottom: 3px solid transparent;
 }
 
 .logo-a-header {
   padding-bottom: 10px;
 }
 
-header nav ul li a:hover {
-  font-weight: 700;
+header nav a:hover {
+  font-weight: 500;
   border-bottom: 3px solid #46a358;
 }
 
@@ -107,6 +106,71 @@ header nav ul li a:hover {
   border: none;
   border-radius: 7px;
   cursor: pointer;
+}
+
+header nav li:hover > .container-submenu1 {
+  display: block;
+}
+
+.a-priming img {
+  padding-left: 100px;
+  margin: 0;
+  width: 12px;
+}
+
+.submenu1 li,
+.submenu2 li {
+  padding: 3px 0;
+}
+
+.submenu1 li a,
+.submenu2 li a {
+  display: block;
+  width: 100%;
+  padding: 7px;
+  box-sizing: border-box;
+}
+
+.submenu1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.submenu2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.submenu1 a {
+  padding: inherit;
+  margin: inherit;
+}
+
+.container-submenu1 {
+  display: none;
+  position: absolute;
+  background-color: rgb(233, 233, 233);
+  width: 200px;
+  margin-top: 27px;
+}
+
+.container-submenu2 {
+  display: none;
+  position: absolute;
+  background-color: rgb(233, 233, 233);
+  width: 250px;
+  left: 100%;
+  top: 0;
+}
+
+.container-submenu1 li a:hover {
+  background-color: #5d7c63;
+  color: #fff;
+  border: none;
+}
+
+.container-submenu1 li:hover > .container-submenu2 {
+  display: block;
 }
 
 /* Second task */
@@ -198,7 +262,7 @@ div.left-container ul li a {
   flex-direction: column;
   align-items: center;
   position: relative;
-  border-bottom: 3px solid transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 
 .product-item a {
@@ -290,6 +354,14 @@ button.btn-page:hover {
   font-weight: 700;
 }
 
+article button {
+  fill: #3d3d3d;
+}
+
+article button img:hover {
+  fill: #46a358;
+}
+
 .cart,
 .like,
 .search {
@@ -330,10 +402,12 @@ button.btn-page:hover {
 .product-item:hover:hover .like,
 .product-item:hover:hover .search {
   display: block;
+  margin: 0;
 }
 
 .product-item:hover {
   border-top: 1px solid #46a358;
+  margin: 0;
 }
 
 .sale {
@@ -385,6 +459,8 @@ button.btn-page:hover {
 .left-card button,
 .right-card button {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   background-color: #46a358;
   color: #fff;
@@ -392,11 +468,13 @@ button.btn-page:hover {
   border-radius: 5px;
   padding: 10px 20px;
   margin-top: 20px;
+  gap: 7px;
   cursor: pointer;
 }
 
 .left-card button img,
 .right-card button img {
+  position: static;
   margin: 0;
 }
 
