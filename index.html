@@ -50,7 +50,48 @@
           <li><a href="#">Blogs</a></li>
         </ul>
       </nav>
-      <button><img src="images/logout.png" alt="Logout" />Login</button>
+      <div class="header-search">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="24px"
+          viewBox="0 -960 960 960"
+          width="24px"
+          fill="currentColor"
+        >
+          <path
+            d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"
+          />
+        </svg>
+      </div>
+      <div class="header-cart">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="24px"
+          viewBox="0 -960 960 960"
+          width="24px"
+          fill="#3d3d3d"
+        >
+          <path
+            d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"
+            fill="#3d3d3d"
+          />
+        </svg>
+        <div class="num-product"><p>3</p></div>
+      </div>
+      <button>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="20px"
+          viewBox="0 -960 960 960"
+          width="20px"
+          fill="#fff"
+        >
+          <path
+            d="M216-144q-29.7 0-50.85-21.15Q144-186.3 144-216v-528q0-29.7 21.15-50.85Q186.3-816 216-816h264v72H216v528h264v72H216Zm432-168-51-51 81-81H384v-72h294l-81-81 51-51 168 168-168 168Z"
+          />
+        </svg>
+        Login
+      </button>
     </header>
     <main>
       <section class="SectionWelcome">
@@ -63,9 +104,6 @@
             Order your favorite plants!
           </p>
           <button>SHOP NOW</button>
-        </div>
-        <div class="plantContainer">
-          <img src="images/PlantsWelcome.png" alt="Plant Welcome Big" />
         </div>
       </section>
       <section class="second-section">
@@ -111,15 +149,42 @@
                   <a href="#"><p class="product-title">Barberton Daisy</p></a>
                   <p class="product-price">$119.00</p>
                 </div>
-                <button class="cart">
-                  <img src="./images/cart.svg" alt="Cart" />
-                </button>
-                <button class="like">
-                  <img src="./images/like.svg" alt="Like" />
-                </button>
-                <button class="search">
-                  <img src="./images/search.svg" alt="Search" />
-                </button>
+                <svg
+                  class="cart"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"
+                  />
+                </svg>
+                <svg
+                  class="like"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"
+                  />
+                </svg>
+                <svg
+                  class="search"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"
+                  />
+                </svg>
               </article>
               <article class="product-item">
                 <div class="product-backgr">
@@ -131,15 +196,42 @@
                   >
                   <p class="product-price">$169.00</p>
                 </div>
-                <button class="cart">
-                  <img src="./images/cart.svg" alt="Cart" />
-                </button>
-                <button class="like">
-                  <img src="./images/like.svg" alt="Like" />
-                </button>
-                <button class="search">
-                  <img src="./images/search.svg" alt="Search" />
-                </button>
+                <svg
+                  class="cart"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"
+                  />
+                </svg>
+                <svg
+                  class="like"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"
+                  />
+                </svg>
+                <svg
+                  class="search"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"
+                  />
+                </svg>
                 <div class="sale">
                   <h3>33% OFF</h3>
                 </div>
@@ -153,15 +245,42 @@
                   <a href="#"><p class="product-title">African Violet</p></a>
                   <p class="product-price">$199.00</p>
                 </div>
-                <button class="cart">
-                  <img src="./images/cart.svg" alt="Cart" />
-                </button>
-                <button class="like">
-                  <img src="./images/like.svg" alt="Like" />
-                </button>
-                <button class="search">
-                  <img src="./images/search.svg" alt="Search" />
-                </button>
+                <svg
+                  class="cart"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"
+                  />
+                </svg>
+                <svg
+                  class="like"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"
+                  />
+                </svg>
+                <svg
+                  class="search"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"
+                  />
+                </svg>
               </article>
               <article class="product-item">
                 <div class="product-backgr">
@@ -171,15 +290,42 @@
                   <a href="#"><p class="product-title">Beach Spider Lily</p></a>
                   <p class="product-price">$129.00</p>
                 </div>
-                <button class="cart">
-                  <img src="./images/cart.svg" alt="Cart" />
-                </button>
-                <button class="like">
-                  <img src="./images/like.svg" alt="Like" />
-                </button>
-                <button class="search">
-                  <img src="./images/search.svg" alt="Search" />
-                </button>
+                <svg
+                  class="cart"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"
+                  />
+                </svg>
+                <svg
+                  class="like"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"
+                  />
+                </svg>
+                <svg
+                  class="search"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"
+                  />
+                </svg>
               </article>
               <article class="product-item">
                 <div class="product-backgr">
@@ -191,15 +337,42 @@
                   >
                   <p class="product-price">$139.00</p>
                 </div>
-                <button class="cart">
-                  <img src="./images/cart.svg" alt="Cart" />
-                </button>
-                <button class="like">
-                  <img src="./images/like.svg" alt="Like" />
-                </button>
-                <button class="search">
-                  <img src="./images/search.svg" alt="Search" />
-                </button>
+                <svg
+                  class="cart"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"
+                  />
+                </svg>
+                <svg
+                  class="like"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"
+                  />
+                </svg>
+                <svg
+                  class="search"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"
+                  />
+                </svg>
               </article>
               <article class="product-item">
                 <div class="product-backgr">
@@ -209,15 +382,42 @@
                   <a href="#"><p class="product-title">Aluminum Plant</p></a>
                   <p class="product-price">$179.00</p>
                 </div>
-                <button class="cart">
-                  <img src="./images/cart.svg" alt="Cart" />
-                </button>
-                <button class="like">
-                  <img src="./images/like.svg" alt="Like" />
-                </button>
-                <button class="search">
-                  <img src="./images/search.svg" alt="Search" />
-                </button>
+                <svg
+                  class="cart"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"
+                  />
+                </svg>
+                <svg
+                  class="like"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"
+                  />
+                </svg>
+                <svg
+                  class="search"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"
+                  />
+                </svg>
               </article>
               <article class="product-item">
                 <div class="product-backgr">
@@ -227,15 +427,42 @@
                   <a href="#"><p class="product-title">Bird's Nest Fern</p></a>
                   <p class="product-price">$99.00</p>
                 </div>
-                <button class="cart">
-                  <img src="./images/cart.svg" alt="Cart" />
-                </button>
-                <button class="like">
-                  <img src="./images/like.svg" alt="Like" />
-                </button>
-                <button class="search">
-                  <img src="./images/search.svg" alt="Search" />
-                </button>
+                <svg
+                  class="cart"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"
+                  />
+                </svg>
+                <svg
+                  class="like"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"
+                  />
+                </svg>
+                <svg
+                  class="search"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"
+                  />
+                </svg>
               </article>
               <article class="product-item">
                 <div class="product-backgr">
@@ -247,15 +474,42 @@
                   >
                   <p class="product-price">$59.00</p>
                 </div>
-                <button class="cart">
-                  <img src="./images/cart.svg" alt="Cart" />
-                </button>
-                <button class="like">
-                  <img src="./images/like.svg" alt="Like" />
-                </button>
-                <button class="search">
-                  <img src="./images/search.svg" alt="Search" />
-                </button>
+                <svg
+                  class="cart"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"
+                  />
+                </svg>
+                <svg
+                  class="like"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"
+                  />
+                </svg>
+                <svg
+                  class="search"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"
+                  />
+                </svg>
               </article>
               <article class="product-item">
                 <div class="product-backgr">
@@ -265,18 +519,45 @@
                   <a href="#"><p class="product-title">Chinese Evergreen</p></a>
                   <p class="product-price">$39.00</p>
                 </div>
-                <button class="cart">
-                  <img src="./images/cart.svg" alt="Cart" />
-                </button>
-                <button class="like">
-                  <img src="./images/like.svg" alt="Like" />
-                </button>
-                <button class="search">
-                  <img src="./images/search.svg" alt="Search" />
-                </button>
+                <svg
+                  class="cart"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"
+                  />
+                </svg>
+                <svg
+                  class="like"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"
+                  />
+                </svg>
+                <svg
+                  class="search"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"
+                  />
+                </svg>
               </article>
               <div class="page-btn">
-                <button class="btn-page">1</button>
+                <button class="active-btn-page">1</button>
                 <button class="btn-page">2</button>
                 <button class="btn-page">3</button>
                 <button class="btn-page">4</button>
@@ -300,7 +581,17 @@
               </p>
               <button>
                 Find More
-                <img src="./images/arrow_right.svg" alt="Arrow Right" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20px"
+                  viewBox="0 -960 960 960"
+                  width="20px"
+                  fill="#FFFFFF"
+                >
+                  <path
+                    d="m576-288-51-51 105-105H192v-72h438L525-621l51-51 192 192-192 192Z"
+                  />
+                </svg>
               </button>
             </div>
           </div>
@@ -314,7 +605,17 @@
               </p>
               <button>
                 Find More
-                <img src="./images/arrow_right.svg" alt="Arrow Right" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20px"
+                  viewBox="0 -960 960 960"
+                  width="20px"
+                  fill="#FFFFFF"
+                >
+                  <path
+                    d="m576-288-51-51 105-105H192v-72h438L525-621l51-51 192 192-192 192Z"
+                  />
+                </svg>
               </button>
             </div>
           </div>
@@ -339,8 +640,17 @@
                 </p>
                 <a href="#"
                   >Read More
-                  <img src="./images/arrow_right_black.svg" alt="Read More"
-                /></a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20px"
+                    viewBox="0 -960 960 960"
+                    width="20px"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="m576-288-51-51 105-105H192v-72h438L525-621l51-51 192 192-192 192Z"
+                    /></svg
+                ></a>
               </div>
             </article>
             <article class="bottom-card">
@@ -351,8 +661,17 @@
                 <p>Best in hanging baskets. Prefers medium to high light.</p>
                 <a href="#"
                   >Read More
-                  <img src="./images/arrow_right_black.svg" alt="Read More"
-                /></a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20px"
+                    viewBox="0 -960 960 960"
+                    width="20px"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="m576-288-51-51 105-105H192v-72h438L525-621l51-51 192 192-192 192Z"
+                    /></svg
+                ></a>
               </div>
             </article>
             <article class="bottom-card">
@@ -366,8 +685,17 @@
                 </p>
                 <a href="#"
                   >Read More
-                  <img src="./images/arrow_right_black.svg" alt="Read More"
-                /></a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20px"
+                    viewBox="0 -960 960 960"
+                    width="20px"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="m576-288-51-51 105-105H192v-72h438L525-621l51-51 192 192-192 192Z"
+                    /></svg
+                ></a>
               </div>
             </article>
             <article class="bottom-card">
@@ -378,13 +706,290 @@
                 <p>The benefits of houseplants are endless. In addition to..</p>
                 <a href="#"
                   >Read More
-                  <img src="./images/arrow_right_black.svg" alt="Read More"
-                /></a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20px"
+                    viewBox="0 -960 960 960"
+                    width="20px"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="m576-288-51-51 105-105H192v-72h438L525-621l51-51 192 192-192 192Z"
+                    /></svg
+                ></a>
               </div>
             </article>
           </div>
         </div>
       </section>
+      <section class="fourth-section">
+        <div class="top-container">
+          <div class="img-text">
+            <img src="./images/footerimg1.png" alt="Plant" />
+            <h3>Garden Care</h3>
+            <p>
+              We are an online plant shop offering a wide range of cheap and
+              trendy plants.
+            </p>
+          </div>
+          <div class="img-text">
+            <img src="./images/footerimg2.png" alt="Plant" />
+            <h3>Plant Renovation</h3>
+            <p>
+              We are an online plant shop offering a wide range of cheap and
+              trendy plants.
+            </p>
+          </div>
+          <div class="img-text">
+            <img src="./images/footerimg3.png" alt="Plant" />
+            <h3>Watering Graden</h3>
+            <p>
+              We are an online plant shop offering a wide range of cheap and
+              trendy plants.
+            </p>
+          </div>
+          <div class="input-container">
+            <h3>Would you like to join newsletters?</h3>
+            <div class="footer-input">
+              <input type="email" placeholder="enter your email address..." />
+              <button>Join</button>
+            </div>
+            <p>
+              We usually post offers and challenges in newsletter. We’re your
+              online houseplant destination. We offer a wide range of
+              houseplants and accessories shipped directly from our (green)house
+              to yours!
+            </p>
+          </div>
+        </div>
+        <div class="middle-container">
+          <img src="./images/Logo.svg" alt="Logo" />
+          <div class="middle-pack">
+            <img src="./images/geoicon.svg" alt="Geo" />
+            <a
+              href="https://maps.google.com/?q=70+West+Buckingham+Ave,+Farmingdale,+NY+11735"
+              target="_blank"
+              >70 West Buckingham Ave. <br />
+              Farmingdale, NY 11735</a
+            >
+          </div>
+          <div class="middle-pack">
+            <img src="./images/mailicon.svg" alt="Mail" />
+            <a href="mailto:contact@greenshop.com">contact@greenshop.com</a>
+          </div>
+          <div class="middle-pack">
+            <img src="./images/phoneicon.svg" alt="Phone" />
+            <a href="tel:+8801911717490">+88 01911 717 490</a>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer-nav">
+          <h3>My Account</h3>
+          <ul>
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Our stores</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Specials</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav">
+          <h3>Help & Guide</h3>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">How to Buy</a></li>
+            <li>
+              <a href="#"
+                >Shipping & <br />
+                Delivery</a
+              >
+            </li>
+            <li><a href="#">Product Policy</a></li>
+            <li><a href="#">How to Return</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="#">House Plants</a></li>
+            <li><a href="#">Potter Plants</a></li>
+            <li><a href="#">Seeds</a></li>
+            <li><a href="#">Small Plants</a></li>
+            <li><a href="#">Accessories</a></li>
+          </ul>
+        </div>
+        <div class="social-media">
+          <h3>Social Media</h3>
+          <div class="social-container">
+            <div class="social">
+              <svg
+                width="8"
+                height="16"
+                viewBox="0 0 8 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 5.33333H0V8H2V16H5.33333V8H7.73333L8 5.33333H5.33333V4.2C5.33333 3.6 5.46667 3.33333 6.06667 3.33333H8V0H5.46667C3.06667 0 2 1.06667 2 3.06667V5.33333Z"
+                  fill="#46A358"
+                  fill-opacity="0.6"
+                />
+              </svg>
+            </div>
+            <div class="social">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 1.46667C10.1333 1.46667 10.4 1.46667 11.2667 1.53333C13.4667 1.6 14.4667 2.66667 14.5333 4.8C14.6 5.66667 14.6 5.86667 14.6 8C14.6 10.1333 14.6 10.4 14.5333 11.2C14.4667 13.3333 13.4 14.4 11.2667 14.4667C10.4 14.5333 10.2 14.5333 8 14.5333C5.86667 14.5333 5.6 14.5333 4.8 14.4667C2.6 14.4 1.6 13.3333 1.53333 11.2C1.46667 10.3333 1.46667 10.1333 1.46667 8C1.46667 5.86667 1.46667 5.6 1.53333 4.8C1.6 2.66667 2.66667 1.6 4.8 1.53333C5.6 1.46667 5.86667 1.46667 8 1.46667ZM8 0C5.8 0 5.53333 0 4.73333 0.0666667C1.8 0.2 0.2 1.8 0.0666667 4.73333C0 5.53333 0 5.8 0 8C0 10.2 0 10.4667 0.0666667 11.2667C0.2 14.2 1.8 15.8 4.73333 15.9333C5.53333 16 5.8 16 8 16C10.2 16 10.4667 16 11.2667 15.9333C14.2 15.8 15.8 14.2 15.9333 11.2667C16 10.4667 16 10.2 16 8C16 5.8 16 5.53333 15.9333 4.73333C15.8 1.8 14.2 0.2 11.2667 0.0666667C10.4667 0 10.2 0 8 0ZM8 3.86667C5.73333 3.86667 3.86667 5.73333 3.86667 8C3.86667 10.2667 5.73333 12.1333 8 12.1333C10.2667 12.1333 12.1333 10.2667 12.1333 8C12.1333 5.73333 10.2667 3.86667 8 3.86667ZM8 10.6667C6.53333 10.6667 5.33333 9.46667 5.33333 8C5.33333 6.53333 6.53333 5.33333 8 5.33333C9.46667 5.33333 10.6667 6.53333 10.6667 8C10.6667 9.46667 9.46667 10.6667 8 10.6667ZM12.2667 2.8C11.7333 2.8 11.3333 3.2 11.3333 3.73333C11.3333 4.26667 11.7333 4.66667 12.2667 4.66667C12.8 4.66667 13.2 4.26667 13.2 3.73333C13.2 3.2 12.8 2.8 12.2667 2.8Z"
+                  fill="#46A358"
+                  fill-opacity="0.6"
+                />
+              </svg>
+            </div>
+            <div class="social">
+              <svg
+                width="16"
+                height="13"
+                viewBox="0 0 16 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5.03186 13.0036C11.0699 13.0036 14.3718 8.00118 14.3718 3.66357C14.3718 3.52144 14.3689 3.38005 14.3624 3.2392C15.0033 2.77588 15.5605 2.19756 16 1.53953C15.4118 1.80085 14.7789 1.97682 14.1149 2.05616C14.7926 1.64981 15.313 1.0067 15.5585 0.24021C14.9241 0.616357 14.2217 0.889688 13.4742 1.03709C12.8749 0.399076 12.0218 0 11.0779 0C9.26483 0 7.79464 1.4702 7.79464 3.28233C7.79464 3.54001 7.82357 3.79041 7.87962 4.0308C5.1516 3.89377 2.73239 2.58735 1.11352 0.601253C0.831273 1.08622 0.668767 1.64999 0.668767 2.25106C0.668767 3.38988 1.24837 4.3953 2.12968 4.98363C1.59121 4.96707 1.08531 4.81894 0.642926 4.57291C0.642198 4.58656 0.642198 4.60039 0.642198 4.61476C0.642198 6.2047 1.77392 7.53204 3.27578 7.83285C3.00008 7.90801 2.71001 7.94841 2.41047 7.94841C2.19901 7.94841 1.99338 7.9273 1.79339 7.88927C2.21121 9.19332 3.42318 10.1425 4.86007 10.1693C3.73636 11.0499 2.32094 11.5745 0.783049 11.5745C0.518272 11.5745 0.256952 11.5594 0 11.529C1.45273 12.46 3.17769 13.0036 5.03186 13.0036Z"
+                  fill="#46A358"
+                  fill-opacity="0.6"
+                />
+              </svg>
+            </div>
+            <div class="social">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.33333 1.66667C3.33333 2.6 2.6 3.33333 1.66667 3.33333C0.733333 3.33333 0 2.6 0 1.66667C0 0.733333 0.733333 0 1.66667 0C2.6 0 3.33333 0.733333 3.33333 1.66667ZM3.33333 4.66667H0V15.3333H3.33333V4.66667ZM8.66667 4.66667H5.33333V15.3333H8.66667V9.73333C8.66667 6.6 12.6667 6.33333 12.6667 9.73333V15.3333H16V8.6C16 3.33333 10.0667 3.53333 8.66667 6.13333V4.66667Z"
+                  fill="#46A358"
+                  fill-opacity="0.6"
+                />
+              </svg>
+            </div>
+            <div class="social">
+              <svg
+                width="19"
+                height="14"
+                viewBox="0 0 19 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M15.1653 4.42995L15.168 4.43062C15.168 4.43062 15.1676 4.4305 15.1667 4.4303C15.1663 4.4302 15.1658 4.43008 15.1653 4.42995ZM4.32444 4.35686C6.91762 4.19575 11.7483 4.19575 14.3415 4.35686L14.3422 4.3644C14.4047 4.99716 14.4299 5.84143 14.4299 7.01915C14.4299 8.18238 14.4053 9.02689 14.3441 9.66498C11.6962 9.77026 6.97129 9.77027 4.32282 9.66502C4.261 9.03324 4.23602 8.19137 4.23602 7.01915C4.23602 5.84143 4.26123 4.99716 4.32369 4.3644L4.32444 4.35686ZM15.2422 9.61106C15.2422 9.61109 15.2405 9.61148 15.237 9.61215L15.2422 9.61106ZM3.49794 9.60768L3.50063 9.60836C3.49881 9.60793 3.49792 9.60769 3.49794 9.60768ZM0 7.01915C0 11.8412 0.388873 13.63 3.42208 13.8633C6.22196 14.0189 12.4439 14.0189 15.2438 13.8633C18.277 13.7078 18.6659 11.8412 18.6659 7.01915C18.6659 2.19713 18.277 0.408316 15.2438 0.174993C12.4439 -0.0583309 6.22196 -0.0583309 3.42208 0.174993C0.388873 0.408316 0 2.19713 0 7.01915ZM3.49794 4.43062C3.49792 4.43061 3.49884 4.43037 3.50073 4.42992L3.49794 4.43062ZM9.78228 8.73886C8.50388 9.37806 6.99973 8.44845 6.99973 7.01915C6.99973 5.58986 8.50388 4.66025 9.78228 5.29945C11.1994 6.008 11.1994 8.0303 9.78228 8.73886Z"
+                  fill="#46A358"
+                  fill-opacity="0.6"
+                />
+              </svg>
+            </div>
+          </div>
+          <h3>We accept</h3>
+          <div class="payment">
+            <svg
+              width="82"
+              height="20"
+              viewBox="0 0 168 41"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M63.225 9.75541H53.9644C53.3309 9.75541 52.7918 10.2002 52.6927 10.8057L48.9474 33.7676C48.8817 34.1749 49.1697 34.5562 49.5909 34.6203C49.6304 34.6262 49.6706 34.6294 49.7114 34.6294H54.1325C54.7666 34.6294 55.3057 34.1833 55.4042 33.5779L56.4147 27.3845C56.5124 26.7797 57.0515 26.3335 57.685 26.3329H60.6167C66.7172 26.3329 70.2376 23.4787 71.157 17.8221C71.5716 15.3473 71.1745 13.4028 69.9764 12.0411C68.6599 10.546 66.3255 9.75476 63.2264 9.75476L63.225 9.75541ZM64.2931 18.1419C63.7869 21.3549 61.2475 21.3549 58.7926 21.3549H57.395L58.3754 15.3544C58.435 14.9918 58.7578 14.7244 59.1375 14.7244H59.7776C61.4498 14.7244 63.0275 14.7244 63.8424 15.6464C64.3286 16.1962 64.4773 17.0133 64.2918 18.1419H64.2931ZM90.9071 18.0383H86.4726C86.093 18.0383 85.7695 18.3057 85.7106 18.6684L85.5144 19.8675L85.2043 19.4331C84.244 18.0856 82.1032 17.6356 79.9663 17.6356C75.0658 17.6356 70.8798 21.2247 70.0648 26.2591C69.6409 28.7701 70.2436 31.1717 71.7169 32.8462C73.0682 34.386 75.0022 35.0276 77.3024 35.0276C81.2514 35.0276 83.4405 32.5729 83.4405 32.5729L83.2429 33.7643C83.1753 34.1716 83.4626 34.5543 83.8831 34.6191C83.9233 34.6255 83.9635 34.6281 84.0036 34.6281H87.9981C88.6323 34.6281 89.1713 34.182 89.2698 33.5766L91.6665 18.9002C91.7341 18.4948 91.4482 18.1128 91.029 18.048C90.9888 18.0416 90.9479 18.0383 90.9071 18.0383ZM84.7255 26.3841C84.2976 28.8336 82.2867 30.4782 79.7219 30.4782C78.4341 30.4782 77.4049 30.0787 76.7439 29.3218C76.0884 28.57 75.8392 27.5004 76.0482 26.3089C76.448 23.8801 78.4924 22.1817 81.0177 22.1817C82.2773 22.1817 83.3005 22.5864 83.9748 23.3498C84.6505 24.121 84.9184 25.1972 84.7249 26.3834L84.7255 26.3841ZM114.526 18.0383H110.069C109.643 18.039 109.243 18.2436 109.004 18.5842L102.858 27.3385L100.252 18.9261C100.088 18.399 99.5864 18.0383 99.0172 18.0383H94.6377C94.2111 18.037 93.8649 18.3705 93.8636 18.783C93.8636 18.8658 93.8777 18.9474 93.9051 19.0258L98.8137 32.9543L94.1991 39.2533C93.952 39.5893 94.0337 40.0555 94.3812 40.2938C94.5118 40.3838 94.6685 40.4317 94.8286 40.4317H99.2797C99.7016 40.4317 100.097 40.2329 100.337 39.8975L115.159 19.2097C115.402 18.871 115.315 18.4061 114.965 18.1711C114.836 18.0843 114.682 18.0377 114.525 18.0377L114.526 18.0383Z"
+                fill="#253B80"
+              />
+              <path
+                d="M129.28 9.75545H120.018C119.385 9.75545 118.846 10.2009 118.748 10.8057L115.003 33.7676C114.936 34.1743 115.223 34.5556 115.643 34.6197C115.683 34.6256 115.723 34.6288 115.763 34.6288H120.516C120.96 34.6288 121.336 34.3161 121.405 33.8932L122.468 27.3845C122.566 26.7797 123.105 26.3336 123.738 26.3329H126.669C132.77 26.3329 136.289 23.4787 137.21 17.8221C137.626 15.3473 137.226 13.4029 136.028 12.0411C134.714 10.5461 132.38 9.7548 129.281 9.7548L129.28 9.75545ZM130.348 18.142C129.843 21.3549 127.304 21.3549 124.848 21.3549H123.452L124.433 15.3544C124.492 14.9918 124.814 14.7244 125.194 14.7244H125.834C127.505 14.7244 129.084 14.7244 129.899 15.6465C130.385 16.1962 130.532 17.0134 130.347 18.142H130.348ZM156.961 18.0384H152.529C152.149 18.0371 151.826 18.3051 151.768 18.6684L151.572 19.8676L151.261 19.4331C150.301 18.0856 148.161 17.6356 146.024 17.6356C141.124 17.6356 136.94 21.2247 136.124 26.2591C135.702 28.7702 136.302 31.1718 137.775 32.8462C139.129 34.386 141.06 35.0277 143.36 35.0277C147.309 35.0277 149.498 32.573 149.498 32.573L149.301 33.7644C149.233 34.1717 149.52 34.5543 149.941 34.6191C149.982 34.6256 150.023 34.6288 150.064 34.6282H154.057C154.691 34.6282 155.229 34.182 155.328 33.5766L157.726 18.9002C157.791 18.4923 157.501 18.1102 157.079 18.0474C157.04 18.0416 157 18.0384 156.961 18.039V18.0384ZM150.779 26.3841C150.354 28.8336 148.341 30.4783 145.776 30.4783C144.491 30.4783 143.459 30.0788 142.798 29.3218C142.142 28.5701 141.896 27.5004 142.102 26.309C142.505 23.8802 144.546 22.1818 147.072 22.1818C148.331 22.1818 149.354 22.5865 150.029 23.3499C150.707 24.1211 150.975 25.1972 150.779 26.3834L150.779 26.3841ZM162.189 10.3855L158.388 33.7676C158.322 34.1743 158.608 34.5556 159.028 34.6197C159.068 34.6256 159.109 34.6288 159.149 34.6288H162.97C163.605 34.6288 164.144 34.1833 164.241 33.5773L167.989 10.6166C168.056 10.2093 167.768 9.82732 167.347 9.76322C167.308 9.75739 167.268 9.75415 167.228 9.75415H162.949C162.569 9.75545 162.247 10.0229 162.188 10.3855H162.189Z"
+                fill="#179BD7"
+              />
+              <path
+                d="M10.4887 39.0914L11.1972 34.7415L9.61952 34.7059H2.08661L7.32128 2.61085C7.35342 2.40818 7.53423 2.2586 7.74651 2.2599H20.4485C24.6653 2.2599 27.5749 3.10813 29.0943 4.78323C29.8068 5.56866 30.2602 6.3897 30.4798 7.29297C30.7102 8.24092 30.7142 9.37342 30.4892 10.7552L30.4731 10.8562V11.7414L31.1857 12.1318C31.7294 12.3979 32.2183 12.7586 32.6281 13.195C33.2375 13.8665 33.6312 14.7205 33.798 15.7326C33.9701 16.7738 33.9131 18.0125 33.6312 19.4143C33.3064 21.0273 32.7808 22.4324 32.0716 23.5817C31.4455 24.6119 30.6037 25.5035 29.6006 26.2002C28.6584 26.8471 27.5381 27.3379 26.2724 27.6526C25.0456 27.9614 23.6467 28.1175 22.1125 28.1175H21.1241C20.417 28.1175 19.7306 28.3635 19.1915 28.8051C18.6531 29.2513 18.2962 29.867 18.1844 30.5437L18.11 30.9354L16.8591 38.6019L16.8022 38.8836C16.7875 38.9729 16.7614 39.017 16.7239 39.0474C16.687 39.0765 16.6415 39.0927 16.5939 39.0934H10.4907L10.4887 39.0914Z"
+                fill="#253B80"
+              />
+              <path
+                d="M31.8592 10.9579C31.8211 11.1923 31.7782 11.4319 31.7293 11.6779C30.0545 19.9939 24.3237 22.8662 17.0044 22.8662H13.2778C12.3824 22.8662 11.6284 23.4949 11.4891 24.3483L9.58127 36.0488L9.04087 39.3653C8.9585 39.8685 9.31341 40.3405 9.83373 40.4201C9.88262 40.4279 9.93217 40.4311 9.9824 40.4311H16.5919C17.3747 40.4311 18.0396 39.8814 18.1629 39.1348L18.2278 38.8104L19.472 31.1744L19.5517 30.7554C19.6736 30.0063 20.3399 29.4565 21.1227 29.4565H22.1111C28.515 29.4565 33.528 26.9429 34.9932 19.6682C35.6053 16.6294 35.2885 14.0918 33.6686 12.3073C33.155 11.755 32.5423 11.2985 31.8592 10.9585V10.9579Z"
+                fill="#179BD7"
+              />
+              <path
+                d="M30.1074 10.2818C29.5723 10.1322 29.0286 10.0157 28.4781 9.93215C27.3913 9.77092 26.2924 9.69322 25.1928 9.70034H15.2371C14.4543 9.70034 13.788 10.2514 13.6674 10.9992L11.5493 23.9695L11.4884 24.3476C11.625 23.4942 12.3844 22.8648 13.277 22.8655H17.0037C24.3229 22.8655 30.0532 19.9912 31.7286 11.6772C31.7789 11.4311 31.821 11.1915 31.8585 10.9572C31.4166 10.7331 30.9559 10.5453 30.4811 10.3958C30.3565 10.3556 30.232 10.3181 30.1061 10.2818H30.1074Z"
+                fill="#222D65"
+              />
+              <path
+                d="M13.6675 10.9993C13.7867 10.2507 14.4537 9.69906 15.2372 9.70165H25.1929C26.3721 9.70165 27.473 9.77611 28.4782 9.93346C29.1579 10.0371 29.8289 10.1912 30.4838 10.3958C30.978 10.5544 31.4374 10.7415 31.8613 10.9572C32.3595 7.88409 31.8572 5.792 30.1389 3.89739C28.2431 1.81177 24.8239 0.918854 20.4491 0.918854H7.7471C6.85311 0.918854 6.09105 1.54758 5.9531 2.40229L0.662182 34.8282C0.567761 35.4038 0.97424 35.9445 1.56956 36.0358C1.62581 36.0442 1.68206 36.0487 1.73898 36.0487H9.58061L11.5494 23.9701L13.6675 10.9999V10.9993Z"
+                fill="#253B80"
+              />
+            </svg>
+            <svg
+              width="33"
+              height="20"
+              viewBox="0 0 103 62"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M71.5582 61.2883C88.6637 61.2883 102.53 47.5866 102.53 30.6847C102.53 13.7828 88.6637 0.0810852 71.5582 0.0810852C63.8921 0.0810852 56.8765 2.83314 51.4681 7.39195C46.0597 2.83315 39.0441 0.0810874 31.3779 0.0810874C14.2725 0.0810874 0.405762 13.7828 0.405762 30.6847C0.405762 47.5866 14.2725 61.2883 31.3779 61.2883C39.0441 61.2883 46.0597 58.5362 51.4681 53.9774C56.8765 58.5362 63.8921 61.2883 71.5582 61.2883Z"
+                fill="#ED0006"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M51.4678 53.9775C58.1272 48.3643 62.3499 40.0117 62.3499 30.6847C62.3499 21.3576 58.1272 13.0051 51.4678 7.39183C56.8762 2.8331 63.8917 0.0810852 71.5578 0.0810852C88.6632 0.0810852 102.53 13.7828 102.53 30.6847C102.53 47.5866 88.6632 61.2883 71.5578 61.2883C63.8917 61.2883 56.8762 58.5363 51.4678 53.9775Z"
+                fill="#F9A000"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M51.4681 53.9775C58.1274 48.3642 62.3501 40.0117 62.3501 30.6847C62.3501 21.3577 58.1274 13.0053 51.4681 7.392C44.8087 13.0053 40.5861 21.3577 40.5861 30.6847C40.5861 40.0117 44.8087 48.3642 51.4681 53.9775Z"
+                fill="#FF5E00"
+              />
+            </svg>
+            <svg
+              width="60"
+              height="20"
+              viewBox="0 0 149 50"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M37.388 49.4502H24.5106L14.8541 11.5266C14.3958 9.78215 13.4226 8.23993 11.9911 7.51306C8.41855 5.68641 4.48186 4.23267 0.187302 3.49948V2.03942H20.9318C23.7948 2.03942 25.9421 4.23267 26.3 6.77987L31.3103 34.1354L44.1815 2.03942H56.701L37.388 49.4502ZM63.8585 49.4502H51.6968L61.7112 2.03942H73.8728L63.8585 49.4502ZM89.6071 15.1736C89.965 12.6201 92.1123 11.16 94.6174 11.16C98.5541 10.7934 102.842 11.5266 106.421 13.3469L108.568 3.13917C104.99 1.67911 101.053 0.945923 97.4805 0.945923C85.6767 0.945923 77.0876 7.51302 77.0876 16.6273C77.0876 23.561 83.1715 27.2017 87.4661 29.3949C92.1123 31.5819 93.9017 33.0419 93.5438 35.2288C93.5438 38.5092 89.965 39.9693 86.3925 39.9693C82.0979 39.9693 77.8033 38.8758 73.8729 37.0492L71.7257 47.2633C76.0202 49.0836 80.6664 49.8168 84.961 49.8168C98.1962 50.1771 106.421 43.6163 106.421 33.7688C106.421 21.3678 89.6071 20.6409 89.6071 15.1736ZM148.984 49.4502L139.327 2.03942H128.955C126.808 2.03942 124.66 3.49948 123.945 5.68641L106.063 49.4502H118.583L121.082 42.5228H136.464L137.896 49.4502H148.984ZM130.744 14.8072L134.317 32.6755H124.303L130.744 14.8072Z"
+                fill="#172B85"
+              />
+            </svg>
+            <svg
+              width="71"
+              height="20"
+              viewBox="0 0 175 49"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M167.719 35.417H162.658C161.611 35.417 160.738 34.7236 160.738 33.8569C160.738 32.8168 161.611 32.2967 162.658 32.2967H171.906L174.002 27.62H162.658C157.947 27.62 155.328 30.3899 155.328 34.0302C155.328 37.6706 157.947 40.0938 161.96 40.0938H167.02C168.068 40.0938 168.941 40.7872 168.941 41.654C168.941 42.5207 168.243 43.2141 167.02 43.2141H155.852V47.8909H167.02C171.732 47.8909 174.351 45.1209 174.351 41.3073C174.351 37.4936 171.906 35.417 167.719 35.417ZM147.302 35.417H142.242C141.194 35.417 140.321 34.7236 140.321 33.8569C140.321 32.8168 141.194 32.2967 142.242 32.2967H151.49L153.585 27.62H142.242C137.53 27.62 134.915 30.3899 134.915 34.0302C134.915 37.6706 137.53 40.0938 141.547 40.0938H146.607C147.655 40.0938 148.528 40.7872 148.528 41.654C148.528 42.5207 147.83 43.2141 146.607 43.2141H135.439V47.8909H146.607C151.319 47.8909 153.934 45.1209 153.934 41.3073C154.109 37.4972 151.668 35.417 147.302 35.417ZM115.022 48.0606H132.474V43.3838H120.606V40.0938H132.299V35.417H120.606V32.127H132.474V27.4502H115.022V48.0642V48.0606ZM104.202 36.2838H98.4433V32.127H104.202C105.774 32.127 106.647 33.1671 106.647 34.2072C106.647 35.4206 105.774 36.2874 104.202 36.2874M112.228 34.0338C112.228 30.0504 109.434 27.4502 104.897 27.4502H92.8553V48.0642H98.4397V40.9642H100.535L106.818 48.0642H113.45L106.643 40.6175C110.132 39.7507 112.228 37.3275 112.228 34.0338ZM82.3886 36.6341H76.455V32.1306H82.3886C83.9602 32.1306 84.8334 33.1707 84.8334 34.3842C84.8334 35.5976 84.1349 36.6377 82.3886 36.6377M83.0871 27.4574H71.0452V48.0715H76.6296V41.3145H83.0871C87.7984 41.3145 90.5924 38.3712 90.5924 34.3842C90.4178 30.2274 87.6274 27.4538 83.0871 27.4538M70.0011 27.4538H62.8487L57.6135 33.6908L52.2037 27.4538H44.8731L54.121 37.6742L44.6984 48.0679H51.8508L57.4352 41.4842L63.0196 48.0679H70.3467L60.9241 37.5008L69.9974 27.4538H70.0011ZM26.5519 48.0679H43.9999V43.3911H31.958V40.101H43.6507V35.4242H31.958V32.1342H43.9999V27.4574H26.5519V48.0715V48.0679ZM165.623 13.5896L157.074 1.1193H150.093V21.56H155.677V8.56606L164.401 21.5564H171.033V1.1193H165.623V13.5932V13.5896ZM133.514 12.8962L136.479 5.96584L139.444 12.8962H133.51H133.514ZM132.816 1.11569L123.742 21.7297H129.851L131.597 17.573H141.194L142.94 21.7297H149.223L139.975 1.1193H132.819L132.816 1.11569ZM114.669 11.5094V11.1627C114.669 8.04602 116.415 5.96584 119.904 5.96584H126.012V0.945953H119.38C112.573 0.945953 109.085 5.27605 109.085 10.9929V11.3396C109.085 17.7499 113.097 21.3866 119.206 21.3866H121.127L123.393 16.7098H120.079C116.765 16.8832 114.669 14.9763 114.669 11.513M100.71 21.56H106.294V1.1193H100.71V21.56ZM89.8903 9.7795H84.1312V5.62275H89.8903C91.4619 5.62275 92.335 6.66284 92.335 7.70293C92.335 8.91637 91.4619 9.78311 89.8903 9.78311M97.9158 7.70293C97.9158 3.71953 95.1218 1.1193 90.5888 1.1193H78.5468V21.7333H84.1312V14.4599H86.2267L92.5097 21.5636H99.3164L92.3387 14.1168C95.8276 13.4234 97.9231 10.8268 97.9231 7.70654M57.4389 21.5636H74.887V16.8868H63.0196V13.5968H74.5377V8.91998H63.0196V5.62997H74.887V1.1193H57.4389V21.56V21.5636ZM39.8162 13.9399L35.1013 1.1193H26.5519V21.56H31.9616V6.83619L37.3714 21.56H42.2573L47.6671 6.83619V21.56H53.2515V1.1193H44.5275L39.8162 13.9363V13.9399ZM9.80229 12.8998L12.7673 5.96945L15.7323 12.8998H9.79865H9.80229ZM9.10015 1.1193L0.0268555 21.56H6.13514L7.8814 17.4032H17.4786L19.2248 21.56H25.5077L16.2562 1.1193H9.10015Z"
+                fill="#006FCF"
+              />
+            </svg>
+          </div>
+        </div>
+      </footer>
+      <p class="end-words">&copy; 2021 GreenShop. All Rights Reserved.</p>
     </main>
   </body>
 </html>

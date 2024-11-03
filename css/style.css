@@ -24,23 +24,25 @@ header button {
   color: #fff;
   font-weight: 500;
   padding: 10px 25px;
-  border: none;
+  border: 1px solid #46a358;
   border-radius: 7px;
   cursor: pointer;
 }
 
-button img {
-  margin-right: 10px;
-  width: 20px;
-  height: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+header button:hover {
+  background-color: #fff;
+  border: 1px solid #46a358;
+  color: #46a358;
+  fill: #46a358;
+}
+
+header button:hover svg {
+  fill: #46a358;
 }
 
 nav {
   display: flex;
-  margin: 0 180px 0 250px;
+  margin: 0 auto;
 }
 
 nav ul {
@@ -68,6 +70,51 @@ a {
 header nav a:hover {
   font-weight: 500;
   border-bottom: 3px solid #46a358;
+}
+
+.header-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-right: 50px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.header-cart:hover svg path {
+  fill: #46a358;
+}
+
+.header-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.header-search:hover svg {
+  fill: #46a358;
+}
+
+.num-product {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12px;
+  height: 12px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background-color: #46a358;
+  color: #fff;
+}
+
+.num-product p {
+  font-size: x-small;
 }
 
 .textWelcome {
@@ -106,6 +153,12 @@ header nav a:hover {
   border: none;
   border-radius: 7px;
   cursor: pointer;
+}
+
+.SectionWelcome button:hover {
+  background-color: #fff;
+  border: 1px solid #46a358;
+  color: #46a358;
 }
 
 header nav li:hover > .container-submenu1 {
@@ -213,6 +266,13 @@ div.left-container ul li a {
   padding: 10px 0;
 }
 
+.SectionWelcome {
+  height: 500px;
+  background-image: url(../images/PlantsWelcome.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
 .left-container {
   background-color: rgb(247, 247, 247);
   width: 25%;
@@ -221,6 +281,7 @@ div.left-container ul li a {
 }
 
 .left-container h3 {
+  color: #3d3d3d;
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -262,7 +323,7 @@ div.left-container ul li a {
   flex-direction: column;
   align-items: center;
   position: relative;
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  border-top: 1px solid transparent;
 }
 
 .product-item a {
@@ -348,10 +409,14 @@ button.btn-page img {
 }
 
 button.btn-page:hover {
-  background-color: #46a358;
-  color: #fff;
+  color: #46a358;
   border-color: #46a358;
   font-weight: 700;
+}
+
+button.active-btn-page {
+  background-color: #46a358;
+  color: #fff;
 }
 
 article button {
@@ -378,18 +443,24 @@ article button img:hover {
 }
 
 .cart {
-  left: 60px;
+  left: 48px;
   bottom: 70px;
 }
 
 .like {
-  left: 107px;
+  left: 105px;
   bottom: 70px;
 }
 
 .search {
-  left: 154px;
+  left: 163px;
   bottom: 70px;
+}
+
+.cart:hover,
+.like:hover,
+.search:hover {
+  fill: #46a358;
 }
 
 .like img,
@@ -464,7 +535,7 @@ article button img:hover {
   align-items: center;
   background-color: #46a358;
   color: #fff;
-  border: none;
+  border: 1px solid #46a358;
   border-radius: 5px;
   padding: 10px 20px;
   margin-top: 20px;
@@ -472,10 +543,16 @@ article button img:hover {
   cursor: pointer;
 }
 
-.left-card button img,
-.right-card button img {
-  position: static;
-  margin: 0;
+.left-card button:hover,
+.right-card button:hover {
+  background-color: #fff;
+  border: 1px solid #46a358;
+  color: #46a358;
+}
+
+.left-card button:hover svg,
+.right-card button:hover svg {
+  fill: #46a358;
 }
 
 .left-card-text,
@@ -509,8 +586,13 @@ article button img:hover {
   margin-bottom: 0;
 }
 
+.bt-card-text h3 {
+  color: #3d3d3d;
+}
+
 .bt-card-text a {
   display: flex;
+  align-items: center;
   padding-left: 0;
 }
 
@@ -527,7 +609,7 @@ article button img:hover {
 }
 
 .bottom-cards article {
-  width: 270px;
+  width: min-content;
 }
 
 .bottom-card {
@@ -537,4 +619,158 @@ article button img:hover {
 
 .bottom-card p:first-child {
   color: #46a358;
+}
+
+/* Fourth Section*/
+
+.fourth-section {
+  background-color: rgb(247, 247, 247);
+  padding-top: 30px;
+}
+
+.top-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.input-container h3 {
+  color: #3d3d3d;
+}
+
+.img-text {
+  border-right: 2px solid #46a3581a;
+  padding-right: 20px;
+  margin-left: 20px;
+}
+
+.img-text h3 {
+  margin-bottom: 7px;
+  color: #3d3d3d;
+}
+
+.footer-input {
+  display: flex;
+  margin: 25px 0;
+}
+
+.footer-input input {
+  width: 250px;
+  padding: 10px;
+  margin: 0;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px 0 0 5px;
+}
+
+.footer-input button {
+  padding: 10px 20px;
+  font-weight: 700;
+  background-color: #46a358;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #46a358;
+  cursor: pointer;
+}
+
+.footer-input button:hover {
+  background-color: #fff;
+  border: 1px solid #46a358;
+  color: #46a358;
+}
+
+.middle-container {
+  display: flex;
+  margin-top: 30px;
+  height: 90px;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(90deg, #edf6ef 0%, #52c368 100%);
+}
+
+.middle-pack {
+  display: flex;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  background-color: rgb(247, 247, 247);
+  border-bottom: 2px solid rgba(70, 163, 88, 0.2);
+  padding-bottom: 30px;
+}
+
+.footer-nav h3 {
+  color: #3d3d3d;
+}
+
+.footer-nav {
+  margin: 50px 120px 0 20px;
+}
+
+.footer-nav ul li a {
+  padding: 0;
+}
+
+.footer-nav ul li a:hover {
+  font-weight: 700;
+  color: #46a358;
+}
+
+.footer-nav ul {
+  padding-left: 0;
+}
+
+.footer-nav ul li {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.social-media {
+  margin-top: 50px;
+}
+
+.social-media h3 {
+  color: #3d3d3d;
+}
+
+.social-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid rgba(70, 163, 88, 0.2);
+  cursor: pointer;
+}
+
+.social:hover {
+  border: 2px solid #46a358;
+}
+
+.payment {
+  margin-top: 20px;
+}
+
+.payment svg {
+  margin-right: 10px;
+}
+
+.end-words {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
 }
