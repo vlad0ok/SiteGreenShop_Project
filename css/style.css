@@ -34,10 +34,12 @@ header button:hover {
   border: 1px solid #46a358;
   color: #46a358;
   fill: #46a358;
+  transition: all 0.5s;
 }
 
 header button:hover svg {
   fill: #46a358;
+  transition: all 0.3s;
 }
 
 nav {
@@ -70,6 +72,7 @@ a {
 header nav a:hover {
   font-weight: 500;
   border-bottom: 3px solid #46a358;
+  transition: all 0.2s;
 }
 
 .header-cart {
@@ -84,6 +87,7 @@ header nav a:hover {
 
 .header-cart:hover svg path {
   fill: #46a358;
+  transition: all 0.5s;
 }
 
 .header-search {
@@ -96,6 +100,7 @@ header nav a:hover {
 
 .header-search:hover svg {
   fill: #46a358;
+  transition: all 0.5s;
 }
 
 .num-product {
@@ -151,6 +156,7 @@ header nav a:hover {
   color: #fff;
   padding: 10px 30px;
   border: none;
+  border: 1px solid #46a358;
   border-radius: 7px;
   cursor: pointer;
 }
@@ -159,6 +165,7 @@ header nav a:hover {
   background-color: #fff;
   border: 1px solid #46a358;
   color: #46a358;
+  transition: all 0.5s;
 }
 
 header nav li:hover > .container-submenu1 {
@@ -220,10 +227,12 @@ header nav li:hover > .container-submenu1 {
   background-color: #5d7c63;
   color: #fff;
   border: none;
+  transition: all 0.5s;
 }
 
 .container-submenu1 li:hover > .container-submenu2 {
   display: block;
+  transition: all 0.5s;
 }
 
 /* Second task */
@@ -289,6 +298,7 @@ div.left-container ul li a {
 .left-container ul li a:hover {
   font-weight: 700;
   color: #46a358;
+  transition: all 0.3s;
 }
 
 .left-container a {
@@ -335,15 +345,17 @@ div.left-container ul li a {
   margin-top: 12px;
 }
 
-.top-panel .tabs a {
+.tabs a {
+  padding-bottom: 0;
   border-bottom: 3px solid transparent;
 }
 
-.top-panel .tabs a:hover {
+.tabs a:hover {
   font-weight: 500;
   color: #46a358;
   padding-bottom: 0;
   border-bottom: 3px solid #46a358;
+  transition: all 0.3s;
 }
 
 .top-panel {
@@ -412,6 +424,7 @@ button.btn-page:hover {
   color: #46a358;
   border-color: #46a358;
   font-weight: 700;
+  transition: all 0.3s;
 }
 
 button.active-btn-page {
@@ -461,6 +474,7 @@ article button img:hover {
 .like:hover,
 .search:hover {
   fill: #46a358;
+  transition: all 0.3s;
 }
 
 .like img,
@@ -474,11 +488,13 @@ article button img:hover {
 .product-item:hover:hover .search {
   display: block;
   margin: 0;
+  transition: all 0.3s;
 }
 
 .product-item:hover {
   border-top: 1px solid #46a358;
   margin: 0;
+  transition: all 0.3s;
 }
 
 .sale {
@@ -548,11 +564,13 @@ article button img:hover {
   background-color: #fff;
   border: 1px solid #46a358;
   color: #46a358;
+  transition: all 0.5s;
 }
 
 .left-card button:hover svg,
 .right-card button:hover svg {
   fill: #46a358;
+  transition: all 0.3s;
 }
 
 .left-card-text,
@@ -598,6 +616,7 @@ article button img:hover {
 
 .bt-card-text a:hover {
   color: #46a358;
+  transition: all 0.3s;
 }
 
 .bottom-cards {
@@ -660,7 +679,7 @@ article button img:hover {
   padding: 10px;
   margin: 0;
   border: none;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 8px 2px rgba(100, 100, 100, 0.2);
   border-radius: 5px 0 0 5px;
 }
 
@@ -679,6 +698,7 @@ article button img:hover {
   background-color: #fff;
   border: 1px solid #46a358;
   color: #46a358;
+  transition: all 0.5s;
 }
 
 .middle-container {
@@ -718,6 +738,7 @@ footer {
 .footer-nav ul li a:hover {
   font-weight: 700;
   color: #46a358;
+  transition: all 0.3s;
 }
 
 .footer-nav ul {
@@ -754,6 +775,10 @@ footer {
   border-radius: 5px;
   border: 2px solid rgba(70, 163, 88, 0.2);
   cursor: pointer;
+}
+
+.reg-a {
+  padding: 0;
 }
 
 .social:hover {

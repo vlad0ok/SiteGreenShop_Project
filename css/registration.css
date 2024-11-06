@@ -1,0 +1,123 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #add4b5;
+  font-family: "Poppins", sans-serif;
+}
+
+.registration-form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 660px;
+  background-color: #fff;
+  border-bottom: 10px solid #46a358;
+}
+
+.registration-form svg.x {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.registration-form svg:hover path {
+  fill: #46a358;
+  transition: all 0.3s;
+}
+
+.registration-form h2 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 52px;
+}
+
+.registration-form h2 span {
+  color: #46a358;
+}
+
+.inputs-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-bottom: 2px solid rgba(234, 234, 234, 1);
+}
+
+.inputs-form p {
+  font-size: 13px;
+}
+
+.inputs-form input {
+  padding: 10px 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 2px solid rgb(180, 180, 180);
+}
+
+.eye {
+  position: absolute;
+  top: 163px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.inputs-form button {
+  padding: 10px 10px;
+  border: 2px solid #46a358;
+  border-radius: 5px;
+  background-color: #46a358;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.inputs-form button:hover {
+  background-color: #fff;
+  color: #46a358;
+  transition: 0.5s;
+}
+
+.middle-text {
+  position: absolute;
+  background-color: #fff;
+  color: rgba(61, 61, 61, 1);
+  padding: 0 10px;
+  top: 425px;
+}
+
+.form-buttons {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-buttons button img {
+  margin-right: 10px;
+}
+
+.form-buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  width: 300px;
+  border: 2px solid rgb(180, 180, 180);
+  border-radius: 5px;
+  background-color: #fff;
+  color: rgba(114, 114, 114, 1);
+  font-weight: 500;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.form-buttons button:hover {
+  color: #46a358;
+  border: 2px solid #46a358;
+  transition: all 0.5s;
+}
