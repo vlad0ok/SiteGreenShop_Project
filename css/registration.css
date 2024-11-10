@@ -45,7 +45,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 300px;
-  border-bottom: 2px solid rgba(234, 234, 234, 1);
 }
 
 .inputs-form p {
@@ -83,8 +82,22 @@ body {
   transition: 0.5s;
 }
 
+.middle-text::before {
+  margin-right: 10px;
+}
+
+.middle-text::after {
+  margin-left: 10px;
+}
+
+.middle-text::before,
+.middle-text::after {
+  content: "―――";
+  height: 2px;
+  color: rgb(182, 182, 182);
+}
+
 .middle-text {
-  position: absolute;
   background-color: #fff;
   color: rgba(61, 61, 61, 1);
   padding: 0 10px;
@@ -120,4 +133,30 @@ body {
   color: #46a358;
   border: 2px solid #46a358;
   transition: all 0.5s;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.container input[type="checkbox"] {
+  display: none;
+}
+
+.custom-input {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(180, 180, 180);
+  border-radius: 50%;
+  transition: background-color 0.3s;
+  margin-right: 8px;
+}
+
+.container input[type="checkbox"]:checked + .custom-input {
+  background-color: #46a358;
 }

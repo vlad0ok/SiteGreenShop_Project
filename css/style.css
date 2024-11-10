@@ -398,16 +398,25 @@ div.left-container ul li a {
   margin: 50px 0 50px 0;
 }
 
+.btn-page,
+.active-btn-page {
+  width: 40px;
+  height: 45px;
+}
+
 div.page-btn button {
   border: 1px solid #e5e5e5;
   border-radius: 5px;
   padding: 10px 15px;
   margin-right: 10px;
   cursor: pointer;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 button.btn-page:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 0;
 }
 
@@ -474,7 +483,6 @@ article button img:hover {
 .like:hover,
 .search:hover {
   fill: #46a358;
-  transition: all 0.3s;
 }
 
 .like img,
@@ -488,7 +496,7 @@ article button img:hover {
 .product-item:hover:hover .search {
   display: block;
   margin: 0;
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 
 .product-item:hover {
@@ -604,8 +612,13 @@ article button img:hover {
   margin-bottom: 0;
 }
 
+.bt-card-text p {
+  font-size: 14px;
+}
+
 .bt-card-text h3 {
   color: #3d3d3d;
+  font-size: 20px;
 }
 
 .bt-card-text a {
@@ -627,13 +640,9 @@ article button img:hover {
   gap: 42px;
 }
 
-.bottom-cards article {
-  width: min-content;
-}
-
 .bottom-card {
+  min-height: 300px;
   background-color: rgb(247, 247, 247);
-  align-items: flex-start;
 }
 
 .bottom-card p:first-child {
