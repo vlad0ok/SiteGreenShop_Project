@@ -7,6 +7,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.exit {
+  color: black;
+}
+
 .registration-form {
   position: relative;
   display: flex;
@@ -92,7 +96,7 @@ body {
 
 .middle-text::before,
 .middle-text::after {
-  content: "―――";
+  content: "―";
   height: 2px;
   color: rgb(182, 182, 182);
 }
@@ -153,7 +157,7 @@ body {
   height: 15px;
   background-color: rgb(180, 180, 180);
   border-radius: 50%;
-  transition: background-color 0.3s;
+  transition: 0.3s;
   margin-right: 8px;
 }
 

@@ -133,6 +133,12 @@ header nav a:hover {
   margin-top: 12px;
   height: 100%;
   display: flex;
+  flex-direction: row;
+}
+
+.SectionWelcome img {
+  width: 505px;
+  height: 450px;
 }
 
 .SectionWelcome div {
@@ -275,16 +281,9 @@ div.left-container ul li a {
   padding: 10px 0;
 }
 
-.SectionWelcome {
-  height: 500px;
-  background-image: url(../images/PlantsWelcome.png);
-  background-repeat: no-repeat;
-  background-position: center right;
-}
-
 .left-container {
   background-color: rgb(247, 247, 247);
-  width: 25%;
+  width: 300px;
   padding-left: 0px;
   height: 770px;
 }
@@ -641,6 +640,7 @@ article button img:hover {
 }
 
 .bottom-card {
+  width: 268px;
   min-height: 300px;
   background-color: rgb(247, 247, 247);
 }
@@ -661,6 +661,11 @@ article button img:hover {
   justify-content: center;
   align-items: center;
   gap: 30px;
+}
+
+.input-container {
+  width: 340px;
+  margin-right: 20px;
 }
 
 .input-container h3 {
@@ -713,7 +718,7 @@ article button img:hover {
 .middle-container {
   display: flex;
   margin-top: 30px;
-  height: 90px;
+  min-height: 90px;
   justify-content: space-around;
   align-items: center;
   background: linear-gradient(90deg, #edf6ef 0%, #52c368 100%);
@@ -807,4 +812,195 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 10px 0;
+}
+
+/* Adaptiv */
+
+@media (max-width: 1200px) {
+  .SectionWelcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-size: 12px;
+  }
+
+  .SectionWelcome .textWelcome {
+    padding-left: 0;
+  }
+
+  .textWelcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .bottom-cards {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .social-container {
+    flex-wrap: wrap;
+  }
+
+  .product-container {
+    justify-content: space-around;
+  }
+
+  .product-item {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  header nav {
+    display: none;
+  }
+
+  .left-card img,
+  .right-card img {
+    display: none;
+  }
+
+  .left-card,
+  .right-card {
+    display: flex;
+  }
+
+  .left-card-text,
+  .right-card-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .left-container {
+    width: 170px;
+  }
+
+  .left-container img {
+    width: 170px;
+  }
+
+  .top-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .img-text {
+    border-right: none;
+    border-top: 2px solid #46a3581a;
+    padding-top: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input-container {
+    margin-left: 20px;
+  }
+
+  .middle-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .top-panel {
+    display: none;
+  }
+
+  .left-container {
+    display: none;
+  }
+
+  .second-section {
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+  }
+
+  .product-container {
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+  }
+
+  .page-btn {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 605px) {
+  header .header-search,
+  header .header-cart {
+    display: none;
+  }
+
+  .SectionWelcome img {
+    display: none;
+  }
+
+  .textWelcome h1 {
+    font-size: 50px;
+  }
+
+  .product-item {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  header button {
+    display: flex;
+    background-color: #46a358;
+    color: #fff;
+    font-weight: 300;
+    padding: 5px 15px;
+    border: 1px solid #46a358;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+
+  .bottom-cards {
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .input-container {
+    width: 270px;
+  }
+
+  .end-words {
+    font-size: 12px;
+  }
 }
